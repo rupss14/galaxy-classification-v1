@@ -1,6 +1,6 @@
-Galaxy Classification System (Machine Learning Project)
+# Galaxy Classification System (Machine Learning Project)
 
-Overview
+# Overview
 
 This project classifies galaxies into Spiral and Elliptical types using Machine Learning.
 
@@ -16,9 +16,9 @@ Due to file size limitations, the dataset is not included in this repository.
 You can download it from Kaggle:
 (https://www.kaggle.com/datasets/saurabhshahane/galaxy-classification)
 
-Approach
+# Approach
 
-1. Data Preprocessing
+## 1. Data Preprocessing
 
 * Converted 'TType' to numeric
 * Removed invalid and missing values
@@ -28,7 +28,7 @@ Approach
   * 0 → Elliptical
   * 1 → Spiral
 
-2. Model Experimentation
+## 2. Model Experimentation
 
 As part of my learning process, I experimented with multiple models:
 
@@ -38,14 +38,14 @@ As part of my learning process, I experimented with multiple models:
 
 These experiments are documented in experiments.ipynb.
 
-3. Final Model
+## 3. Final Model
 
 * Random Forest Classifier
 * Selected based on best performance and generalization
 
 Accuracy: 84%
 
-4. Evaluation
+## 4. Evaluation
 
 The model was evaluated using:
 
@@ -55,7 +55,7 @@ The model was evaluated using:
 
 The results show balanced performance across both classes.
 
-5. Feature Importance
+## 5. Feature Importance
 
 Feature importance analysis showed that structural properties like:
 
@@ -65,7 +65,7 @@ Feature importance analysis showed that structural properties like:
 
 play a significant role in galaxy classification.
 
-6. Streamlit App
+## 6. Streamlit App
 
 An interactive web application is built using Streamlit where users can:
 
